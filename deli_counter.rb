@@ -7,6 +7,7 @@ else
   array.each_with_index{|name, index|
     nameList  << " #{index + 1}. #{name}"
   }
-  end
   puts "The line is currently #{nameList}"
+  end
+  
 end 
